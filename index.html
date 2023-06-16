@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<title>No Farmers No Food</title>
+<html lang="en">
+
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf_8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+   z-index: 1;
+}
+
+	
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd; color: black;}
+
+
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ffe6e6;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #e6fff2;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 0.5px;
+  text-align: center;
+  background: #1abc9c;
+  color: black;
+}
+
+/* Style Social Media Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 85px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1> &#127806; ਕਿਸਾਨ ਮਜ਼ਦੂਰ ਏਕਤਾ ਜ਼ਿੰਦਾਬਾਦ &#127806;</h1></div>
+
+ <div class=""><center><h1>FARMERS PROTEST</h1>
+  <p>( A <b>FIGHT</b> Against Corporates )</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="./Farmers_Uniouns.html">Farmers Unions</a>
+  <a href="./3_laws.html">Laws</a>
+  <a href="./Demands.html">Farmer Demands</a>
+  <a href="./langar.html">Langar</a>
+  <a href="./security.html">Security</a>
+  <a href="./fake_news.html">Fake News</a>
+  <a href="./music.html">Songs</a>
+  <a href="./international.html">International</a>
+  <a href="./court.html">Supreme Court</a>
+  <a href="./repeal.html">Repeal</a>
+
+<div class="dropdown">
+  <button class="dropbtn">Protests</button>
+  <div class="dropdown-content">
+	<a id="link" href="./Protests.html">Protests</a>
+	<a id="link" href="./rail.html">Rail Roko</a>
+	<a id="link" href="./blocking.html">Blocking Roads</a>
+	<a id="link" href="./social_media.html">Social Media</a>
+	<a id="link" href="./counter.html">Counter Protest</a>
+	<a id="link" href="./republic_prade.html">Republic Day</a>
+	<a id="link" href="./p_toolkit.html">Toolkit</a>
+  <a id="link" href="./awards.html">Repudiation Of Awards</a>
+	
+</div></div>
+<div class="marquee">
+  <marquee scrollamount="10" direction="left">
+  
+  <img src="./png/IMG-20210323-WA0014.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG_20210815_084955.jpg" style="width:600px">
+  <img src="./png/IMG-20210830-WA0017.jpg" style="width:600px">
+  <img src="./png/IMG-20210121-WA0007.jpg" style="height:277px ; width:560px">
+  <img src="./png/IMG_20210711_144549.jpg" style="width:600px">
+  <img src="./png/IMG_20210815_133346.jpg" style="width:600px">
+  <img src="./png/IMG-20210815-WA0012.jpg" style="height:277px ; width:560px">
+  <img src="./png/IMG-20210205-WA0024.jpg" style="height:277px ; width:560px">
+  <img src="./png/IMG_20210806_121847.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG-20201224-WA0022.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG-20201226-WA0016.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG-20210101-WA0008.jpg" style="height:277px ; width:600px"> 
+  <img src="./png/IMG-20201229-WA0006.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG-20210112-WA0019.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG-20210526-WA0012.jpg" style="height:277px ; width:600px">
+  <img src="./png/IMG-20210526-WA0011.jpg" style="height:277px ; width:600px">
+  <img src="./png/Logo\download (17).jpeg" style="height:277px ; width:300px">
+  <img src="./png/Logo/images (2).png" style="height:277px ; width:300px">
+  <img src= "./png/logo/images (3).jpeg" style="height:277px ; width:300px">
+  <img src="./png/logo/images (4).png"style="height:277px ; width:300px">
+</marquee>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About</h2>
+    <h3>Kissan Mazdoor Ekta Zindabad</h3>
+    <img src="./png/2020_Indian_farmers'_protest_-_sitting_protest.jpg"> <br> 
+    <audio controls manualplay>
+    <source src="./INQALAB_Zindabad_slogan_at_Ghazipur_(getmp3.pro).mp3">
+    </audio>
+    <p>Date : 09 August 2020 </p>
+<p>Location : India</p>
+</p>Caused by : Passing of three Farm Bills by Lok Sabha and Rajya Sabha
+Government mishandling of the COVID-19 pandemic</p>
+</p>Goals : Revocation of all the three Farm Bills
+Legally ensure minimum support price</p>
+</p>Methods Of Protest's: Gherao , Dharna , Raasta roko ,Demonstration ,Counter legislation</p>
+</p>Status : Ongoing
+The implementation of the three farm laws has been halted by the Supreme Court of India</p>
+</p>Organization Under Samyukt Kissan Morcha :</p>
+</p><All India Kissan Sangharsh Coordination Committee<br> Bharatiya Kissan Union<br> Kissan swaraj sangathan farmers union<br> All India Kissan Sabha<br> Jai Kissan Andolan<br> Lok Sangharsh Morcha<br> All India Krishak Khet Majdoor Sangathan<br> National Alliance of People's Movements<br> Other farmer's unions<br></h>
+    <h3>No Farmers No Food</h3><br>
+
+    <h3>Art Gallery</h3>
+    <div class ="side">
+    <img src ="./png/Indian_Farmers'_Protest_by_JK_Photography_10.jpg" >
+    <img src ="./png/Indian_Farmers'_Protest_by_Ravan_Khosa_44.jpg">
+    <img src ="./png/Farmers'_protest_at_Singhu_Border_25_December_2020_-_03.jpg" >
+    <img src ="./png/Farmers'_Protest_at_Tikri_Border_-_15.jpg">
+    <img src ="./png/Farmers'_Protest_at_Singhu_Border_9_January_2021_-_4.jpg">
+    <img src ="./png/Farmers'_Protest_at_Singhu_Border_9_January_2021_-_3.jpg">
+    
+    
+    </div>
+  </div>
+
+<div class="main">
+    <h2>2020-2021 Farmer's Protest</h2>
+    <h3>Date, Jan 9, 2020 To Present Day</h3>
+    <p> <img src="./png/IMG_20210815_133325.jpg" style="height:335px ; width:900px"></p>
+
+<p style="font-size:18px;">The 2020 - 2021 Indian farmers' protest is an ongoing protest against three farm acts which were passed by the Parliament of India in September 2020. A stalemate between the central government and the farmers has been seen for the past few months.<br>
+
+<p style="font-size:18px;">Farmers, farmer unions and their representatives have demanded that the laws be repealed and have stated that they will not accept a compromise.Farmer leaders welcomed the Supreme Court of India stay order on the implementation of the farm laws in January 2021 which remains in effect.Farmer leaders also rejected a government proposal, dated 21 January 2021, of suspending the laws for 18 months.Eleven rounds of talks have taken place between the central government and farmers represented by the farm unions between 14 October 2020 and 22 January 2021; all were inconclusive with the government only agreeing to two of the farmer demands related to stubble burning and an electricity ordinance.A Supreme Court appointed committee has submitted its confidential report before the court.Six state governments (Kerala, Punjab, Chhattisgarh, Rajasthan, Delhi and West Bengal) have passed resolutions against the farms acts, and three states (Punjab, Chhattisgarh and Rajasthan) have tabled counter legislation in their respective state assemblies. None of the counter legislation passed the respective state governors.<br></p>
+
+<p  style="font-size:18px;">The acts, often called the Farm Bills,have been described as "anti-farmer laws" by many farmer unions,and politicians from the opposition also say it would leave farmers at the "mercy of corporates".The farmers have also demanded the creation of an Minimum Support Price (MSP) bill, to ensure that corporates cannot control the prices. The government, however, maintains that the laws will make it effortless for farmers to sell their produce directly to big buyers, and stated that the protests are based on misinformation.<br></p>
+
+<p style="font-size:18px;">Soon after the acts were introduced, unions began holding local protests, mostly in Punjab. After two months of protests, farmer unions—mainly from Punjab and Haryana—began a movement named Dili Chalo (transl. Let's go to Delhi), in which tens of thousands of farming union members marched towards the nation's capital. The Indian government ordered the police and law enforcement of various states to attack the protesters using water cannons, batons, and tear gas to prevent the farmer unions from entering into Haryana first and then Delhi. On 26 November 2020, a nationwide general strike involving millions of people, according to trade unions, took place in support of the farmer unions.On 30 November, an estimated crowd of 200,000 and 300,000 farmers was converging at various border points on the way to Delhi.<br></p>
+
+<p style="font-size:18px;">On 26 January, India's Republic Day, tens of thousands of the farmers held a farmer's parade with a large convoy of tractors and drove into Delhi. The protesters deviated from the pre-sanctioned routes permitted by the Delhi Police.The tractor rally turned into a violent protest at certain points as the protesting farmers drove through the barricades and clashed with the police.Later protesters reached Red Fort and installed farmer union flags and religious flags on the mast on the rampart of the Red Fort.<br></p>
+
+<p  style="font-size:18px;">While a section of farmer unions have been protesting, the Indian Government claims some unions have come out in support of the farm laws.By mid December, the Supreme Court of India had received a batch of petitions asking for the removal of blockades created by the protesters around Delhi.Farmers have said they will not listen to the courts if told to back off.Their leaders have also said that staying the farm laws is not a solution.As of 21 March 2021, according to Haryana Police, there are around 40,000 committed protestors sitting at Singhu and Tikri at the Delhi border.</p><br><br>
+</div></div>
+
+<div class="main">
+<div class="main">
+<a href="https://www.facebook.com/kisanektamorcha" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Kisanektamorcha" class="fa fa-twitter"></a>
+<a href="https://en.wikipedia.org/wiki/Samyukt_Kisan_Morcha" class="fa fa-google"></a>
+<a href="https://www.youtube.com/channel/UC4mGFTV86AR8VeJmusu1QWQ/featured" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/kisanektamorcha/" class="fa fa-instagram"></a>
+</div></div>
+
+<div class="main">
+<div class="main">
+<div class="footer">
+  <h1><p>NO FARMERS NO FOOD</p></h1>
+<h3> &#169; Jagdeep Singh</h3>
+</div></div></div>
+
+
+</body></html>
