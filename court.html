@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<title>No Farmers No Food</title>
+<html lang="en">
+
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf_8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+   z-index: 1;
+}
+
+	
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd; color: black;}
+
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ffe6e6;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #e6fff2;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 0.5px;
+  text-align: center;
+  background: #1abc9c;
+  color: black;
+}
+
+/* Style Social Media Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 85px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1> &#127806; ਕਿਸਾਨ ਮਜ਼ਦੂਰ ਏਕਤਾ ਜ਼ਿੰਦਾਬਾਦ &#127806;</h1></div>
+
+ <div class=""><center> <h1>FARMERS PROTEST</h1>
+  <p>( A <b>FIGHT</b> Against Corporates )</p>
+</div>
+
+<div class="navbar">
+  <a href="./Final.html" class="active">Home</a>
+  <a href="./Farmers_Uniouns.html">Farmers Unions</a>
+  <a href="./3_laws.html">Law's</a>
+  <a href="./Demands.html">Farmer Demands</a>
+  <a href="./langar.html">Langer</a>
+  <a href="./security.html">Security</a>
+  <a href="./fake_news.html">Fake News</a>
+  <a href="./music.html">Songs</a>
+  <a href="./international.html">International</a>
+  <a href="./court.html">Supreme Court</a>
+  <a href="./repeal.html">Repeal</a>
+<div class="dropdown">
+  <button class="dropbtn">Protests</button>
+  <div class="dropdown-content">
+	<a id="link" href="./Protests.html#FOOD">Protests</a>
+	<a id="link" href="./rail.html">Rail Roko</a>
+	<a id="link" href="./blocking.html">Blocking Roads</a>
+	<a id="link" href="./social_media.html">Social Media</a>
+	<a id="link" href="./counter.html">Counter Protest</a>
+	<a id="link" href="./republic_prade.html">Republic Day</a>
+	<a id="link" href="./p_toolkit.html">Toolkit</a>
+  	<a id="link" href="./awards.html">Repudiation Of Awards</a>
+	</div></div>
+
+<div class="main">
+<h1>Supreme Court of India involvement</h1>
+
+<p  style="font-size:18px;">The Supreme Court of India has received numerous petitions seeking direction to remove protesting farmers from blocking access routes to the capital. The Supreme Court has also conveyed to the central government that it intends to set up a body for taking forward the negotiations. On 17 December, the Supreme Court acknowledged the right to peaceful protest but added, "you (farmers) have a purpose also and that purpose is served only if you talk, discuss and reach a conclusion". The central government opposed the court's recommendation of putting on hold the implementation of the farm laws. Agitating farmer unions have decided to consult Prashant Bhushan, Dushyant Dave, HS Phoolka and Colin Gonsalves as far as the Supreme Court proceedings go.</p>
+
+<p  style="font-size:18px;">A plea submitted by several students of Panjab University on 2 December 2020 was registered by the Supreme Court as a public petition on 4 January 2021 The plea was in the form of a letter which called out police excesses, illegal detentions of protesters, "misrepresentation, polarization and sensationalisation" by media channels and approached the matter on humanitarian grounds. A student who drafted the petition informed The Wire that "over the course of over 100 days of the farmers' protest, this is the first petition filed in favour of the protest".</p>
+
+<p  style="font-size:18px;">Farmers have said they will not listen to the courts if told to back off or even if the laws are stayed. Farmer union leaders have also raised the issue of the government "dodging dialogue" since the "SC has said earlier that it will not intervene". Congress chief spokesperson Randeep Surjewala made a statement in this regard, "Why does the government want the SC to solve all contentious issues, from the CAA and the National Register of Citizens to farm laws?"</p>
+
+<p  style="font-size:18px;">On 11 January 2021 the Chief Justice of India said during hearings, "We are not experts on agriculture and economics. Tell us whether you (the government) will put these laws on hold or else we will do it. What's the prestige issue here? We don't know if you are part of the solution or part of the problem  We have an apprehension that someday maybe, there might be a breach of peace. Each one of us will be responsible if anything goes wrong  If the vast majority says that laws are good, let them say it to (a) committee." The Court also stated to the government that they were "...extremely disappointed at the way government is handling all this (farmers protests). We don't know what consultative process you followed before the laws. Many states are up in rebellion." The Court also rejected a claim by Solicitor General Tushar Mehta that the "vast majority" of farmers supported the laws, stating that they had not received any submissions from any person that the laws were beneficial.</p>
+
+<p  style="font-size:18px;">Supreme Court stay order and farm laws committee
+On 12 January 2021, the Supreme Court of India suspended the farm laws and formed a committee to look into the grievances of protesting farmers. The CJI, Sharad Arvind Bobde, requested the farmer unions to cooperate. The members of the committee included agriculture experts Ashok Gulati, Pramod Kumar Joshi, Anil Ghanwat and Bhupinder Singh Mann. However, two days later, Bhupinder Singh Mann recused himself in solidarity with the farmers.</p>
+
+<p  style="font-size:18px;">Irrespective of Mann recusing himself, and the following criticism, the Supreme Court, and the remaining members of the Supreme Court-appointed committee, continued with the tasks outlined to the committee. Criticism raised, related to bias in appointing the committee, was addressed by the Supreme Court. The committee called on the public for suggestions by 20 February 2021. It went on to conduct a number of meetings online, including speaking to 73 farmers organisations and related organisations. In September 2021, panel member Anil Ghanwat requested the Chief Justice to make the committee report public.</p>
+
+<h3>Chief Justices of the Supreme Court during the stay order on the farm laws</h3>
+
+<p  style="font-size:18px;">Chief Justice of Supreme Court of India Justice S. A. Bobde, along with justices V. Ramasubramanian and A. S. Bopanna have heard the matters stemming from the farm laws.</p>
+
+<p  style="font-size:18px;">Chief Justice N. V. Ramana took over in April 2021. He has been asked by a farm committee member to make the committee report public.</p></div>
+
+<div class="main">
+<div class="main">
+<a href="https://www.facebook.com/kisanektamorcha" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Kisanektamorcha" class="fa fa-twitter"></a>
+<a href="https://en.wikipedia.org/wiki/Samyukt_Kisan_Morcha" class="fa fa-google"></a>
+<a href="https://www.youtube.com/channel/UC4mGFTV86AR8VeJmusu1QWQ/featured" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/kisanektamorcha/" class="fa fa-instagram"></a>
+</div></div>
+
+
+
+<div class="main">
+<div class="main">
+<div class="footer">
+  <h1><p>NO FARMERS NO FOOD</p></h1>
+<h3> &#169; Jagdeep Singh</h3>
+</div></div></div>
+
+
+</body></html>

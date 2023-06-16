@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<title>No Farmers No Food</title>
+<html lang="en">
+
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf_8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+   z-index: 1;
+}
+
+	
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd; color: black;}
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ffe6e6;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #e6fff2;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 0.5px;
+  text-align: center;
+  background: #1abc9c;
+  color: black;
+}
+
+/* Style Social Media Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 85px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1> &#127806; ਕਿਸਾਨ ਮਜ਼ਦੂਰ ਏਕਤਾ ਜ਼ਿੰਦਾਬਾਦ &#127806;</h1></div>
+
+ <div class=""><center> <h1>FARMERS PROTEST</h1>
+  <p>( A <b>FIGHT</b> Against Corporates )</p>
+</div>
+
+<div class="navbar">
+  <a href="./Final.html" class="active">Home</a>
+  <a href="./Farmers_Uniouns.html">Farmers Unions</a>
+  <a href="./3_laws.html">Law's</a>
+  <a href="./Demands.html">Farmer Demands</a>
+  <a href="./langar.html">Langer</a>
+  <a href="./security.html">Security</a>
+  <a href="./fake_news.html">Fake News</a>
+  <a href="./music.html">Songs</a>
+  <a href="./international.html">International</a>
+  <a href="./court.html">Supreme Court</a>
+  <a href="./repeal.html">Repeal</a>
+<div class="dropdown">
+  <button class="dropbtn">Protests</button>
+  <div class="dropdown-content">
+	<a id="link" href="./Protests.html#FOOD">Protests</a>
+	<a id="link" href="./rail.html">Rail Roko</a>
+	<a id="link" href="./blocking.html">Blocking Roads</a>
+	<a id="link" href="./social_media.html">Social Media</a>
+	<a id="link" href="./counter.html">Counter Protest</a>
+	<a id="link" href="./republic_prade.html">Republic Day</a>
+	<a id="link" href="./p_toolkit.html">Toolkit</a>
+  	<a id="link" href="./awards.html">Repudiation Of Awards</a>
+	</div></div>
+
+<div class="main">
+ <h1>Incidence Of Fake News</h1>
+<div class="marquee">
+    <marquee scrollamount="10" direction="left">
+      <img src="./png/f/1.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/2.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/3.png" style="height:235px ; width:400px">
+      <img src="./png/f/4.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/5.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/6.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/7.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/8.jpeg" style="height:235px ; width:400px">
+      <img src="./png/f/9.jpeg" style="height:235px ; width:400px">
+</marquee>
+
+    <p style="font-size:18px;">Several politicians have circulated misinformation and fake news about the protests, and based on this, have made allegations of separatism, sedition, and 'anti-national' activities concerning the farmers' protests. In response to these, in December 2020, a group of protesting farmers announced that they would be establishing a unit to counter misinformation being spread about the protests. Notable incidents of fake news include:<br>
+    <li style="font-size:18px;">In December 2020, Bharatiya Janata Party IT Cell's head, Amit Malviya, shared a misleading and fake video regarding the farmers' protests, claiming that there had been no police violence, in response to evidence of police violence shared by Congress politician Rahul Gandhi. Twitter flagged Malviya's video as 'manipulated media', placing a warning below the tweet to indicate that the content shared by Malviya was "deceptively altered or fabricated" with the intention of misleading people.</li><br>
+    <li style="font-size:18px;">A tweet by Canadian MP Jack Harris in support of the protest was falsely attributed to American Vice-President-elect Kamala Harris. Harris released a statement clarifying that she had not made the statement</li><br>
+    <li style="font-size:18px;">The BJP's Punjab unit shared an advertisement containing what they claimed was of a 'happy farmer' supporting the new laws. The image was actually of a protesting farmer, who had not consented to their use of his image. After he publicly objected and filed a legal notice against the Punjab BJP, the image was replaced with a cartoon drawing of a farmer instead.</li><br>
+    <li style="font-size:18px;">Priti Gandhi, the social media for the BJP's Women's Cell, shared an image of farmers allegedly protesting the change to the state of Kashmir's constitutional status in 2019. This image was not taken during the farmers' protest, but was from a protest held in 2019 by the Shiromani Akali Dal political party.</li><br>
+    <li style="font-size:18px;">Several BJP politicians, including Union Minister Giriraj Singh, shared a video of police officials removing the turban of a Sikh protester, and falsely claimed that the protester was not Sikh but was in fact Muslim, and further claimed that this was evidence of Muslims instigating protests. This video had previously been shared during the 2019 Citizenship Act protests and was debunked as fake then, despite which it was shared again during the 2020 farmers' protests to raise allegations against Muslim citizens.</li><br>
+    <li style="font-size:18px;">In January 2021, a user generated National Geographic Magazine cover was circulated as a real cover depicting the farmers' protest as the cover story.</li><br>
+    <li style="font-size:18px;">In January 2021, several BJP leaders, including Jawahar Yadav, and Facebook fan pages of Prime Minister Narendra Modi accused protesting farmers of vandalizing signboards on highways, sharing images of such signboards. The images were later established as being taken from old news articles covering protests in 2017 about the placement of Punjabi language signs on these boards.</li><br>
+    <li style="font-size:18px;">Rajdeep Sardesai spread a fake news story of a farmer being killed by Delhi Police during the violence of the tractor parade on 26 January. India Today took the noted media personality off air and deducted one months pay for his unverified remarks.</li><br>
+    <li style="font-size:18px;">In January 2021, Zee News aired a video of decorated tractors, claiming that it was evidence of a forthcoming protest by farmers, and commenting, "Why use such tractors of terror in the farmer protests? Are these tractors a means of waging war with the law? Are these farmers' tractors or terror tractors?". The video in question contained persons speaking in German and was confirmed as having been taken from a rally conducted in Germany in December 2020, in which tractors were decorated, and displayed to raise funds for children who were being treated for cancer.</li></p>
+
+<h1>Fallout</h1>
+    <p style="font-size:18px;">As fallout of the growing belief amongst protesting farmers that Mukesh Ambani and Gautam Adani were the principal beneficiaries of the farm laws enacted by the NDA Government, Punjab and Haryana farmers, in protest, decided to surrender Jio-sims and switch to rival networks. A number of Reliance Jio telecom towers and other infrastructure were damaged in Punjab in the last week of December 2020. Punjab Chief Minister Amarinder Singh appealed to the farmers to stop disrupting the communication towers.<br>
+    On 30 December, Punjab Chief Minister Amarinder Singh objected to the Punjab Governor Vijayender Pal Singh Badnore's summoning of the state's chief secretary and the Director-General of Punjab Police Dinkar Gupta. Gupta has served as DG of Intelligence of Punjab police, and with Intelligence Bureau for eight years before being appointed DG Punjab police. Singh alleged that Badnore had bowed to the "antics of the BJP" which has falsely claimed breakdown of law and order in Punjab. He called upon the BJP to stop slandering the farmers with terms like 'Naxalites', 'Khalistanis', and for the BJP central leadership to pay heed to the voice of the farmers and repeal the farm laws.</p></div>
+
+<div class="main">
+<div class="main">
+<a href="https://www.facebook.com/kisanektamorcha" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Kisanektamorcha" class="fa fa-twitter"></a>
+<a href="https://en.wikipedia.org/wiki/Samyukt_Kisan_Morcha" class="fa fa-google"></a>
+<a href="https://www.youtube.com/channel/UC4mGFTV86AR8VeJmusu1QWQ/featured" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/kisanektamorcha/" class="fa fa-instagram"></a>
+</div></div>
+
+
+
+<div class="main">
+<div class="main">
+<div class="footer">
+  <h1><p>NO FARMERS NO FOOD</p></h1>
+<h3> &#169; Jagdeep Singh</h3>
+</div></div></div>
+
+
+</body></html>

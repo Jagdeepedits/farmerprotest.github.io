@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<title>No Farmers No Food</title>
+<html lang="en">
+
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf_8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+   z-index: 1;
+}
+
+	
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd; color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd; color: black;}
+
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ffe6e6;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #e6fff2;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 0.5px;
+  text-align: center;
+  background: #1abc9c;
+  color: black;
+}
+
+/* Style Social Media Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 85px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1> &#127806; ਕਿਸਾਨ ਮਜ਼ਦੂਰ ਏਕਤਾ ਜ਼ਿੰਦਾਬਾਦ &#127806;</h1></div>
+
+ <div class=""><center> <h1>FARMERS PROTEST</h1>
+  <p>( A <b>FIGHT</b> Against Corporates )</p>
+</div>
+
+<div class="navbar">
+  <a href="./Final.html" class="active">Home</a>
+  <a href="./Farmers_Uniouns.html">Farmers Unions</a>
+  <a href="./3_laws.html">Law's</a>
+  <a href="./Demands.html">Farmer Demands</a>
+  <a href="./langar.html">Langer</a>
+  <a href="./security.html">Security</a>
+  <a href="./fake_news.html">Fake News</a>
+  <a href="./music.html">Songs</a>
+  <a href="./international.html">International</a>
+  <a href="./court.html">Supreme Court</a>
+  <a href="./repeal.html">Repeal</a>
+<div class="dropdown">
+  <button class="dropbtn">Protests</button>
+  <div class="dropdown-content">
+	<a id="link" href="./Protests.html#FOOD">Protests</a>
+	<a id="link" href="./rail.html">Rail Roko</a>
+	<a id="link" href="./blocking.html">Blocking Roads</a>
+	<a id="link" href="./social_media.html">Social Media</a>
+	<a id="link" href="./counter.html">Counter Protest</a>
+	<a id="link" href="./republic_prade.html">Republic Day</a>
+	<a id="link" href="./p_toolkit.html">Toolkit</a>
+  	<a id="link" href="./awards.html">Repudiation Of Awards</a>
+	</div></div>
+
+<div class="main">
+<h1>2020</h1>
+    <p style="font-size:18px;">The first farmer to die was Dhanna Singh (age 45) of Mansa district in Punjab. He was a leader of the Bharatiya Kisan Union (Dakaunda). He died, on the night of 26 November 2020, according to farmer leaders and media reports, while trying to negotiate his tractor past the Haryana Police road barricade of sand-laden trucks and stones. He was on his way to join the farmers who had been stopped by the Delhi Police on 26 November, on the border of Haryana, and Delhi.<br>
+    On 20 December, the death toll of farmers for the period 15 September to 20 December, according to media reports, was 41. Of these 38 were from Punjab (30 from Malwa, six from Doaba,and two from Majha), and three from Haryana. This total includes seven farmers who have died due to the cold and heart attacks at the Tikri border, and six at Singhu border, including Sant Baba Ram Singh, who committed suicide on 16 December. In the period 26 November – 18 December, according to Manoj Yadava, Director-General of Police, Haryana, 25 farmers died (heart attacks and cold 14, accident 10, suicide 1). This estimate however did not match with the estimated deaths in the 'struggle' by Dr Darshan Pal, the farmer leader, according to whom the death toll of farmers in the 'struggle' during this period is 35.<br>
+    Piara Singh, a 70-year-old poor farmer, and member of BKU (Dakaunda) died on 29 December, of pneumonia, in a Sangrur private hospital. Piara Singh, according to his elder brother, was part of the contingent participating in the farmer's-satyagraha since 26 November. Other farmers cremated on 29 December included Amarjeet Singh Rai in Jalalabad, and farm laborer Malkiat Kaur of Mazdoor Mukti Morcha in Mansa, Punjab.</p>
+
+    <h1>2021</h1>
+    <p style="font-size:18px;">On 1 January 2021, Galtan Singh, 57, of Baghpat, UP, who was part of the protesters at Ghazipur border, died after complaining of breathlessness. He became the first farmer fatality of 2021, and first reported farmer-death on the UP border. On 2 January, three farmers died: two at the Tikri Border, and one at the Singhu border. In Tikri Jagbir Singh, 66, from Jind district, died of suspected heart-attack; and Jashnpreet, 18, from Bathinda, died after he was evacuated to after evacuation to PGIMS, Rohtak. Shamsher Singh, 44, a dalit farmer, who was in Singhu camp with his son, 13, died after he complained of chest pain, before reaching the hospital in Soneput, Haryana.<br>
+    Navreet Singh, 25, resident of Rampur district, a student of Melbourne University on vacation in India, died while participating in farmers’ Republic Day tractor rally on 26 January 2021. He was the lone fatality during the farmer's rally. According to Delhi Police First Information Report (FIR), and the autopsy, Navreet Singh died from head injuries sustained in a tractor accident. Avinash Chandra, Additional Director General of Police (DGP) Bareilly Zone, whose jurisdiction includes Rampur, told reporters that the postmortem report has confirmed that Navreet Singh was not shot, and succumbed to antemortem injuries "received after his tractor toppled". Navreet Singh's grandfather, Hardeep Singh Dibdiba, with whom he was staying, and other family members, have denied police version of events. They allege that Navneet Singh died from gunshot wounds from firing by Delhi police . Journalists who reported these allegations were charged with sedition by the Uttar Pradesh police. Those charged include Siddharth Varadarajan, Mrinal Pande, Rajdeep Sardesai, Vinod Jose, Zafar Agha, Paresh Nath and Anant Nath, and Shashi Tharoor, Congress MP Varadarajan has called the police FIR "malicious prosecution".<br>
+    A freelance journalist, Mandeep Punia, was arrested by Delhi Police on 30 January in view of his reports regarding the violence that took place at Singhu border the day before. He was granted bail on 2 February.</p></div>
+
+<div class="main">
+<div class="main">
+<a href="https://www.facebook.com/kisanektamorcha" class="fa fa-facebook"></a>
+<a href="https://twitter.com/Kisanektamorcha" class="fa fa-twitter"></a>
+<a href="https://en.wikipedia.org/wiki/Samyukt_Kisan_Morcha" class="fa fa-google"></a>
+<a href="https://www.youtube.com/channel/UC4mGFTV86AR8VeJmusu1QWQ/featured" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/kisanektamorcha/" class="fa fa-instagram"></a>
+</div></div>
+
+
+
+<div class="main">
+<div class="main">
+<div class="footer">
+  <h1><p>NO FARMERS NO FOOD</p></h1>
+<h3> &#169; Jagdeep Singh</h3>
+</div></div></div>
+
+
+</body></html>
